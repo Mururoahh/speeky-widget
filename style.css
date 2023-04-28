@@ -1,0 +1,48 @@
+body {
+	display: inline-block;
+}
+
+.widget {
+	color: lightgray;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-radius: 50px;
+	padding: 10px 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+}
+
+.sum-info {
+	display: flex;
+	flex-direction: column;
+	justify-items: flex-end;
+}
+
+.sum-info>div {
+	padding: 5px;
+}
+
+.sum-name {
+	text-align: left;
+}
+
+.sum-winrate {
+	display: flex;
+}
+
+.sum-winrate div {
+	padding-right: 5px;
+}
+
+.win {
+	color: lawngreen;
+}
+
+.lose {
+	color: red;
+}
+
+.winrate {
+	color: gold;
+}
