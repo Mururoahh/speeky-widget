@@ -1,5 +1,5 @@
 const summonerName = "<summoner-name>"
-const apiKey = "api_key=" + "<api-key>" 
+const apiKey = "api_key=" + "<api-key>"
 
 async function fetchSumId(summonerName, apiKey) {
 	const url = `https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${summonerName}?${apiKey}`;
